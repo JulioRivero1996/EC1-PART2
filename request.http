@@ -1,0 +1,59 @@
+
+<!--
+GET http://localhost:8090/demo/all
+
+
+###AGREGA
+POST http://localhost:8090/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Advincula
+&email=Robotin@gmail.com
+
+
+###EDITA
+PUT http://localhost:8090/demo/edit
+Content-Type: application/x-www-form-urlencoded
+
+id=1
+&name=Anaya
+&email=feanaya@gmail.com
+
+###LLAMA POR ID
+GET http://localhost:8090/demo/ver/2
+
+
+###ELIMINA POR ID
+DELETE http://localhost:8090/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=1
+
+###
+GET  http://localhost:8090/demo/get/report
+-->
+
+
+###LLAMAR A TODAS LAS MASCOTAS
+GET http://localhost:8090/mascotas/all
+
+###AGREGA MASCOTAS
+POST http://localhost:8090/mascotas/add
+Content-Type: application/x-www-form-urlencoded
+
+nombre=Bobby
+&raza=poodle
+&propietario=Julio
+
+###LLAMA POR ID
+GET http://localhost:8090/mascotas/ver/52
+
+###DELETE POR ID
+DELETE http://localhost:8090/mascotas/del
+Content-Type: application/x-www-form-urlencoded
+
+id=52
+
+###REPORTE
+GET http://localhost:8090/mascotas/get/report
+
